@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1300.0" style="-fx-background-color: #F5FFFA;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetohotel2.Gui.TelaReservaController">
+   <children>
+      <Label layoutX="288.0" layoutY="14.0" text="Bem-vindo à nossa página de reservas! Para garantir sua estadia conosco, siga as etapas abaixo:">
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font></Label>
+      <Label layoutX="387.0" layoutY="50.0" text="1) Selecione a data de check-in e check-out desejadas utilizando o calendário abaixo.">
+         <font>
+            <Font name="Calibri Bold Italic" size="15.0" />
+         </font></Label>
+      <Label layoutX="383.0" layoutY="75.0" text="2) Escolha uma das opções de quartos disponíveis abaixo, clicando no botão vermelho">
+         <font>
+            <Font name="Calibri Bold Italic" size="15.0" />
+         </font></Label>
+      <Label layoutX="426.0" layoutY="99.0" text=" para escolher o tipo de quarto que melhor atenda às suas necessidades.">
+         <font>
+            <Font name="Calibri Bold Italic" size="15.0" />
+         </font></Label>
+      <Label layoutX="461.0" layoutY="121.0" text="3) Por fim, insira seu login e senha para confirmar a reserva. ">
+         <font>
+            <Font name="Calibri Bold Italic" size="15.0" />
+         </font></Label>
+      <Label layoutX="346.0" layoutY="148.0" text="Agradecemos por escolher nosso hotel e esperamos proporcionar a você uma estadia memorável!">
+         <font>
+            <Font name="Calibri Bold Italic" size="15.0" />
+         </font></Label>
+      <Button layoutX="1167.0" layoutY="11.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="59.0" style="-fx-background-color: #000000;" text="Voltar" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="1230.0" layoutY="11.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="62.0" style="-fx-background-color: #000000;" text="Sair" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="273.0" fitWidth="360.0" layoutY="564.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../foto_quarto_standard.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="235.0" fitWidth="352.0" layoutX="950.0" layoutY="564.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../foto_suíte_presidencial.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="354.0" fitWidth="416.0" layoutX="573.0" layoutY="564.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../foto_suíte_executiva.jpg" />
+         </image>
+      </ImageView>
+       <ImageView fitHeight="235.0" fitWidth="360.0" layoutX="295.0" layoutY="564.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@../foto_quarto_deluxe.jpg" />
+           </image>
+       </ImageView>
+      <Button layoutY="536.0" mnemonicParsing="false" style="-fx-background-color: #B22222;" text="Quarto Standard" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="295.0" layoutY="536.0" mnemonicParsing="false" style="-fx-background-color: #B22222;" text="Quarto Deluxe" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="647.0" layoutY="536.0" mnemonicParsing="false" style="-fx-background-color: #B22222;" text="Suíte Executiva" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="989.0" layoutY="536.0" mnemonicParsing="false" style="-fx-background-color: #B22222;" text="Suíte Presidencial" textFill="WHITE">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Button>
+      <DatePicker layoutX="416.0" layoutY="337.0" prefHeight="38.0" prefWidth="174.0" />
+      <DatePicker layoutX="678.0" layoutY="337.0" prefHeight="38.0" prefWidth="174.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dcffea" height="185.0" layoutX="1112.0" layoutY="237.0" stroke="#b023237f" strokeType="INSIDE" width="190.0" />
+      <Label layoutX="416.0" layoutY="304.0" text="Check-in:">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="678.0" layoutY="304.0" text="Check-out:">
+         <font>
+            <Font name="Calibri" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="1126.0" layoutY="291.0" text="Quarto Standard - R$ 75">
+         <font>
+            <Font name="Calibri Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1129.0" layoutY="321.0" text="Quarto Deluxe - R$ 125">
+         <font>
+            <Font name="Calibri Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1128.0" layoutY="351.0" text="Suíte Executiva - R$ 200">
+         <font>
+            <Font name="Calibri Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1120.0" layoutY="379.0" text="Suíte Presidencial - R$ 300">
+         <font>
+            <Font name="Calibri Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="1147.0" layoutY="257.0" text="Valor da Diária:">
+         <font>
+            <Font name="Calibri Bold" size="17.0" />
+         </font>
+      </Label>
+      <Separator layoutX="173.0" layoutY="-2.0" orientation="VERTICAL" prefHeight="347.0" prefWidth="13.0" />
+      <Separator layoutX="-8.0" layoutY="340.0" prefHeight="10.0" prefWidth="186.0" />
+   <TextField layoutX="14.0" layoutY="189.0" />
+   <PasswordField layoutX="14.0" layoutY="247.0" />
+   <Label layoutX="15.0" layoutY="163.0" prefHeight="9.0" prefWidth="76.0" text="Login:">
+      <font>
+         <Font name="Calibri" size="20.0" />
+      </font>
+   </Label>
+   <Label layoutX="16.0" layoutY="222.0" prefHeight="9.0" prefWidth="76.0" text="Senha:">
+      <font>
+         <Font name="Calibri" size="20.0" />
+      </font>
+   </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../hotelsystem.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

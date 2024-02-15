@@ -1,0 +1,37 @@
+loginHospede,Sauna,20.0
+loginHospede,Sauna,20.0
+loginHospede,Hidromassagem,30.0
+loginHospede,Spa dos Pés,50.0
+loginHospede,Sauna,20.0
+loginHospede,Hidromassagem,30.0
+loginHospede,Spa dos Pés,50.0
+loginHospede,Hidromassagem,30.0
+loginHospede,Spa dos Pés,50.0
+loginHospede,Sauna,20.0
+loginHospede,Hidromassagem,30.0
+loginHospede,Spa dos Pés,50.0
+loginHospede,Massagem,90.0
+loginHospede,Limpeza de Pele,110.0
+loginHospede,Acupuntura,150.0
+loginHospede,Sauna,20.0
+loginHospede,Sauna,20.0
+loginHospede,Hidromassagem,30.0
+loginHospede,Sauna,20.0
+loginHospede,Sauna,20.0
+loginHospede,Sauna,20.0
+loginHospede,Sauna,20.0
+loginHospede,Sauna,20.0
+loginHospede,Sauna,20.0
+loginHospede,Hidromassagem,30.0
+loginHospede,Spa dos Pés,50.0
+loginHospede,Sauna,20.0
+loginHospede,Hidromassagem,30.0
+loginHospede,Acupuntura,150.0
+loginHospede,Spa dos Pés,50.0
+loginHospede,Sauna,20.0
+loginHospede,Hidromassagem,30.0
+loginHospede,Acupuntura,150.0
+loginHospede,Massagem,90.0
+loginHospede,Spa dos Pés,50.0
+loginHospede,Sauna,20.0
+loginHospede,Hidromassagem,30.0

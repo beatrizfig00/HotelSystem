@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="684.0" prefWidth="1100.0" style="-fx-background-color: #F5FFFA;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projetohotel2.Gui.TelaPrincipalController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="72.0" stroke="BLACK" strokeType="INSIDE" width="1100.0" />
+      <MenuButton layoutX="23.0" layoutY="14.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="165.0" style="-fx-background-color: #000000;" text="Cadastro" textFill="WHITE">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Alterar Dados" />
+         </items>
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="175.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #000000;" text="Reserva" textFill="WHITE">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Fazer Reserva" />
+            <MenuItem mnemonicParsing="false" text="Consultar" />
+            <MenuItem mnemonicParsing="false" text="Solicitar Cancelamento" />
+         </items>
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="343.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #000000;" text="Serviços" textFill="WHITE">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Solicitar Serviço de Quarto" />
+            <MenuItem mnemonicParsing="false" text="Lavanderia" />
+            <MenuItem mnemonicParsing="false" text="SPA" onAction="#abrirTelaSpa"/>
+            <MenuItem mnemonicParsing="false" text="Alimentação e Produtos" />
+            <MenuItem mnemonicParsing="false" text="Transporte" />
+         </items>
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="516.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #000000;" text="Financeiro" textFill="WHITE">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Conta Atual" />
+            <MenuItem mnemonicParsing="false" text="Pagamento" />
+         </items>
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="722.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: #000000;" text="Feedback" textFill="WHITE">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Deixar Comentário" />
+         </items>
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </MenuButton>
+      <MenuButton layoutX="903.0" layoutY="7.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="175.0" style="-fx-background-color: #000000;" text="Fidelidade" textFill="WHITE">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Visualizar" />
+         </items>
+         <font>
+            <Font name="Calibri" size="25.0" />
+         </font>
+      </MenuButton>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="39.0" layoutX="143.0" layoutY="16.0" stroke="BLACK" strokeType="INSIDE" width="42.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="39.0" layoutX="278.0" layoutY="16.0" stroke="BLACK" strokeType="INSIDE" width="42.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="39.0" layoutX="460.0" layoutY="16.0" stroke="BLACK" strokeType="INSIDE" width="36.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="39.0" layoutX="643.0" layoutY="17.0" stroke="BLACK" strokeType="INSIDE" width="57.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="39.0" layoutX="847.0" layoutY="12.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="39.0" layoutX="1035.0" layoutY="18.0" stroke="BLACK" strokeType="INSIDE" width="50.0" />
+      <ImageView fitHeight="624.0" fitWidth="1100.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../foto_tela_principal.jpg" />
+         </image>
+      </ImageView>
+      <Separator layoutY="573.0" prefHeight="39.0" prefWidth="1096.0" />
+      <Button fx:id="voltarButton" layoutX="24.0" layoutY="623.0" mnemonicParsing="false" onAction="#botaoVoltar" style="-fx-background-color: #000000;" text="Voltar" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="1019.0" layoutY="627.0" mnemonicParsing="false" onAction="#botaoSair" prefHeight="28.0" prefWidth="59.0" style="-fx-background-color: #000000;" text="Sair" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="96.0" fitWidth="108.0" layoutX="526.0" layoutY="588.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../hotelsystem.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

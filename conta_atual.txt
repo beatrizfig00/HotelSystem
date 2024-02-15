@@ -1,0 +1,37 @@
+loginHospede: Sauna - R$ 20.0
+loginHospede: Sauna - R$ 20.0
+loginHospede: Hidromassagem - R$ 30.0
+loginHospede: Spa dos Pés - R$ 50.0
+loginHospede: Sauna - R$ 20.0
+loginHospede: Hidromassagem - R$ 30.0
+loginHospede: Spa dos Pés - R$ 50.0
+loginHospede: Hidromassagem - R$ 30.0
+loginHospede: Spa dos Pés - R$ 50.0
+loginHospede: Sauna - R$ 20.0
+loginHospede: Hidromassagem - R$ 30.0
+loginHospede: Spa dos Pés - R$ 50.0
+loginHospede: Massagem - R$ 90.0
+loginHospede: Limpeza de Pele - R$ 110.0
+loginHospede: Acupuntura - R$ 150.0
+loginHospede: Sauna - R$ 20.0
+loginHospede: Sauna - R$ 20.0
+loginHospede: Hidromassagem - R$ 30.0
+loginHospede: Sauna - R$ 20.0
+loginHospede: Sauna - R$ 20.0
+loginHospede: Sauna - R$ 20.0
+loginHospede: Sauna - R$ 20.0
+loginHospede: Sauna - R$ 20.0
+loginHospede: Sauna - R$ 20.0
+loginHospede: Hidromassagem - R$ 30.0
+loginHospede: Spa dos Pés - R$ 50.0
+loginHospede: Sauna - R$ 20.0
+loginHospede: Hidromassagem - R$ 30.0
+loginHospede: Acupuntura - R$ 150.0
+loginHospede: Spa dos Pés - R$ 50.0
+loginHospede: Sauna - R$ 20.0
+loginHospede: Hidromassagem - R$ 30.0
+loginHospede: Acupuntura - R$ 150.0
+loginHospede: Massagem - R$ 90.0
+loginHospede: Spa dos Pés - R$ 50.0
+loginHospede: Sauna - R$ 20.0
+loginHospede: Hidromassagem - R$ 30.0
